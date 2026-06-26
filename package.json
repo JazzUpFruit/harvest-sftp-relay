@@ -1,0 +1,14 @@
+{
+  "name": "harvest-share-sftp-relay",
+  "version": "1.0.0",
+  "description": "SFTP relay service for Harvest Share EDI Hub",
+  "main": "sftp-relay.js",
+  "scripts": {
+    "start": "node sftp-relay.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ssh2": "^1.16.0",
+    "cors": "^2.8.5"
+  }
+}
